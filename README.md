@@ -15,55 +15,12 @@ This is a Laravel-based meeting room reservation system. Users can book meeting 
 
 ## 🛠️ Getting Started
 
-### 1. Clone or Fork the Repository
+### Clone or Fork the Repository
 - Click the **Fork** button on GitHub to create your own copy, or clone directly:
   ```sh
   git clone https://github.com/YOUR-USERNAME/xve_application_test.git
   cd xve_application_test
   ```
-
-### 2. Install Dependencies
-- PHP dependencies:
-  ```sh
-  composer install
-  ```
-- Node.js dependencies:
-  ```sh
-  npm install
-  ```
-
-### 3. Environment Setup
-- Copy the example environment file:
-  ```sh
-  cp .env.example .env
-  # Or manually create .env if needed
-  ```
-- Generate the application key:
-  ```sh
-  php artisan key:generate
-  ```
-- Create the SQLite database file (if not present):
-  ```sh
-  touch database/database.sqlite
-  ```
-- Run migrations:
-  ```sh
-  php artisan migrate
-  ```
-
-### 4. Running the Application
-- Start the Laravel development server:
-  ```sh
-  php artisan serve
-  ```
-- Visit [http://localhost:8000](http://localhost:8000) in your browser.
-
-### 5. Running Tests
-- Run all tests:
-  ```sh
-  php artisan test
-  ```
-
 ## 🧑‍💻 Contributing
 1. Fork the repository and clone your fork.
 2. Create a new branch for your feature or bugfix:
