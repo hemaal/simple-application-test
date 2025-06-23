@@ -7,8 +7,7 @@ This is a Laravel-based meeting room reservation system. Users can book meeting 
 
 ## 🚀 Features
 - Batch booking insertion with conflict detection
-- Automated tests for booking logic
-- Modern Laravel 12+ stack
+- Automated tests for booking logic 
 
 ## 📂 Key Files
 - **Service implementation:** `app/Services/BookingService.php`
@@ -76,11 +75,4 @@ This is a Laravel-based meeting room reservation system. Users can book meeting 
    git add .
    git commit -m "Describe your changes"
    ```
-4. Push to your fork and open a Pull Request on GitHub.
-
-## 🤝 Code of Conduct & Security
-- Please review the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-- For security issues, email [taylor@laravel.com](mailto:taylor@laravel.com).
-
-## 📄 License
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+4. Push to your fork and include me in the pull request
