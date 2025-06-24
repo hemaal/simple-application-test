@@ -35,6 +35,9 @@ class BookingService
             ];
         }
         catch(\Exception $e){
+            // Conflicts found
+            DB::rollBack();
+
             return [
                 'success' => false,
                 'conflicts' => $this->conflicts
